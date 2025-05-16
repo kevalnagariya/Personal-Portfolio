@@ -43,13 +43,10 @@ This is a personal portfolio website for **Keval Nagariya**, an Associate Softwa
   - tsparticles for animated background  
   - FontAwesome icons for social media and buttons  
 
-## Live Demo
-
-Check out the live portfolio at [Your Live URL here].
 
 ## 🧑‍💻 Author
 
 - Created with ❤️ by **Keval Nagariya** 
-- ❤️ **https://op-quizzify.netlify.app/**
+- ❤️ **https://op-keval-portfolio.netlify.app/**
 
 
