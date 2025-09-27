@@ -110,3 +110,19 @@ document.querySelectorAll(".navbar-nav .nav-link").forEach((link) => {
     }
   });
 });
+
+
+const typed = new Typed('#typed-roles', {
+        strings: [
+            "WordPress Developer 💻",
+            "Front-End Developer 🖥️",
+            "React Developer ⚛️",
+            "Associate Software Engineer 🏢",
+            "Software Engineer 🚀",
+            "Gamer 🎮"
+        ],
+        typeSpeed: 80,
+        backSpeed: 50,
+        backDelay: 1500,
+        loop: true
+    });
