@@ -85,7 +85,7 @@ section {
 
 /* Section content */
 .section-content {
-  font-size: 1.1rem;
+  font-size: 1 rem;
   line-height: 1.7;
   color: white;
 }
@@ -118,65 +118,9 @@ section {
   color: white;
 }
 
-/* About image styling */
-.about-image {
-  width: 75%;
-  border-radius: 12px;
-  border: 3px solid #a37fff;
-  box-shadow: 0 0 20px #a37fff66;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-  position: relative;
-}
-
-/* Wiggle animation keyframes for hover effect */
-@keyframes wiggle {
-  0%, 100% { transform: rotate(-3deg) translateX(0); }
-  25% { transform: rotate(3deg) translateX(5px); }
-  50% { transform: rotate(-3deg) translateX(-5px); }
-  75% { transform: rotate(3deg) translateX(5px); }
-}
-
-/* Apply wiggle and stronger shadow on hover */
-.about-image:hover {
-  animation: wiggle 0.5s ease-in-out;
-  box-shadow: 0 0 30px #b79fffcc;
-  border-color: #ff69b4; /* pink highlight */
-}
-
-/* Speech bubble container around about image */
-.about-image-container {
-  position: relative;
-  display: inline-block;
-}
-
-/* Speech bubble style - hidden initially */
-.about-image-container::after {
-  content: "Hey! 👋";
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #b79fffcc;
-  color: #fff;
-  padding: 8px 12px;
-  border-radius: 12px;
-  font-size: 0.9rem;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-  white-space: nowrap;
-  box-shadow: 0 0 10px #b79fffcc;
-}
-
-/* Show speech bubble on hover */
-.about-image-container:hover::after {
-  opacity: 1;
-}
-
 /* About text styling */
 .about-text {
-  font-size: 1.15rem;
+  font-size: 1 rem;
   line-height: 1.6;
 }
 
@@ -257,7 +201,7 @@ section {
 }
 
 .contact-text {
-  font-size: 1.1rem;
+  font-size: 1 rem;
   margin-bottom: 2rem;
   color: #bdbdbd;
 }
